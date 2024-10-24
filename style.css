@@ -1,0 +1,177 @@
+/*.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }*/
+
+body{
+
+    width: 100%;
+    Font size: 18px
+}
+
+.heading-section{
+
+    background-image: url("images/bg-header-desktop.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.heading-conten{
+    width: auto;
+    text-align: center;
+}
+
+.heading-conten-body{
+    margin-top: 30px;
+}
+
+.heading-conten-body h2{
+    font-size: 45px;
+    color: hsl(210, 10%, 33%)
+}
+
+.heading-conten-body p{
+    font-size: 20px;
+    color: hsl(201, 11%, 66%);
+
+}
+
+.heading-conten-btn button{
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.btn-download-ios{
+    background-color: hsl(171, 66%, 44%);
+    width: 170px;
+    height: 40px;
+}
+
+.btn-download-mac{
+    background-color: hsl(233, 100%, 69%);
+    width: 170px;
+    height: 40px;
+}
+
+@media (min-width:1001px)(max-width:1600px){
+    .main-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+}
+
+@media (min-width:319px) and (max-width:1000px){
+    .main-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.text-and-imag-body div{
+    margin-top: 60px;
+}
+
+.text-and-imag-header{
+    text-align: center;
+}
+
+.text-and-imag-header h2{
+    color: hsl(210, 10%, 33%);
+    font-size: 50px;
+}
+
+.text-and-imag-header p{
+    font-size: 20px;
+    color: hsl(201, 11%, 66%);
+}
+
+h3.img-text-h3{
+    margin-top: 50px;
+    font-size: 35px;
+    color: hsl(210, 10%, 33%)
+}
+
+.img-text-p{
+    font-size: 20px;
+    color: hsl(201, 11%, 66%);
+}
+
+.access-body{
+    text-align: center;
+}
+
+.access-body-content{
+    margin-top: 60px;
+}
+
+.access-body-content h3{
+    margin-top: 40px;
+    font-size: 35px;
+    color: hsl(210, 10%, 33%)
+}
+
+.access-body-content p{
+    margin-top: 10px;
+    font-size: 17px;
+    color: hsl(201, 11%, 66%);
+}
+
+.footer-btn{
+    margin-top: 100px;
+}
+
+.company-logos-body{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.company-logos{
+    width: 50%;
+    margin-top: 50px;
+}
+
+
+
+@media (max-width:1600px){
+    footer{
+        margin-top: 100px;
+        background-color: rgba(245, 246, 248, 1);
+        height: 200px;
+    }
+}
+
+@media (max-width:500px){
+    footer{
+        margin-top: 100px;
+        background-color: rgba(245, 246, 248, 1);
+        height: 150vh;
+        text-align: center;
+    }
+}
+
+.footer-body {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.footer-logo{
+    margin-top: 40px;
+}
+
+a.footer-link{
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+    margin-top: 50px;
+
+}
+
+.footer-social-link{
+    margin-right: 20px;
+}
